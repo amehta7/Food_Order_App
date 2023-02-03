@@ -11,7 +11,7 @@ const AvailableMeals = () => {
   const fetchMeals = async () => {
     try {
       const response = await fetch(
-        'https://reactfoodorderapp-f0a0e-default-rtdb.firebaseio.com/meals.json'
+        'your_url'
       )
 
       if (!response.ok) {
